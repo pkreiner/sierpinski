@@ -15,9 +15,9 @@ niceSierpinski.py lets the user enter a set of points (left-mouse clicks) on whi
 
 basicSierpinski.py is the same, but instead of the user inputting points, it just starts with three preset points.
 
-It's fun to experiment with variations of the Chaos Game: instead of just taking the midpoint of the current point and one of the base points, you can use another function that gives a point between them: a weighted average, a logarithmic average, etc. To try these out, just replace the line 
+It's fun to experiment with variations of the Chaos Game: instead of just taking the midpoint of the current point and one of the base points, you can use another function that gives a point between them: a weighted average, a logarithmic average, etc. To try these out, just replace the line (in either basicSierpinski or NiceSierpinski)
 p = midpoint(...)
-with another function - there are some written in niceSierpinskiUtilities.py - for example
-p = logMidpoint(..., alpha=0.3).
+with, for example,
+p = logMidpoint(..., alpha=0.3). There are more such functions implemented in niceSierpinskiUtilities.py.
 
 Enjoy!
